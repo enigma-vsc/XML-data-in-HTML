@@ -5,7 +5,7 @@ function loadXMLDoc() {
       myFunction(this);
     }
   };
-  xmlhttp.open("GET", "emptable.xml", true);
+  xmlhttp.open("GET", "./assets/emptable.xml", true);
   xmlhttp.send();
 }
 function myFunction(xml) {
