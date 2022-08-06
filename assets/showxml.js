@@ -11,7 +11,7 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table='<thead><tr><th><span class="text">Emp ID</span></th><th><span class="text">EMP Name</span></th><th><span class="text">EMP Mob</span></th><th><span class="text">EMP Add</span></th></tr></thead>';
+  var table='<thead><tr><th>Emp ID</th><th>EMP Name</th><th>EMP Mob</th><th>EMP Add</th></tr></thead>';
   var x = xmlDoc.getElementsByTagName("emp");
   table+="<tbody>";
   for (i = 0; i <x.length; i++) {
