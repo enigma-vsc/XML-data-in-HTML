@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 .scrollit {
     overflow-y:scroll;
     height:400px;
@@ -5,15 +6,17 @@
 table,td {
     border: 1px solid gray;
     border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 td {
-    padding: 10px;
+    padding: 20px;
 }
 #table-wrapper {
     position:relative;
   }
 #table-scroll {
-    height:150px;
+    height: 300px;
     overflow:auto;  
     /* margin-top:20px; */
   }
@@ -22,11 +25,16 @@ td {
   
   }
 #table-wrapper table * {
-    background: burlywood;
+    background: #D3D3D3;
     color:black;
   }
 #table-wrapper th {
     position:sticky; top: 0; z-index: 1;
     border: 1px solid gray;
-    /* border:2px solid whitesmoke; */
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
   } 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+
+}
