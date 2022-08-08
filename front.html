@@ -10,8 +10,18 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 <body>
+    <div class="container jumbotron-fluid">
+    <div class="jumbotron">
     <h1>Welcome</h1>
-    <h2> To get the Employee list please provide the security key and click on the button below</h2>
-    <a href="show.html"><button>Click here To get the Employee List</button></a>
+    <p class="lead">To get the Employee list please provide the security key and click on the button below</p>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Security Key" aria-label="Security Key" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <a href="show.html"><button class="btn btn-primary" type="button">Get List</button></a>
+        </div>
+    </div>
+    <!-- <a href="show.html"><button type="button" class="btn btn-primary">Click here To get the Employee List</button></a> -->
+    </div>
+    </div>
 </body>
 </html>
